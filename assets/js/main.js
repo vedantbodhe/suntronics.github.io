@@ -167,7 +167,7 @@
   });
 
   /**
-   * Porfolio isotope and filter
+   * Products isotope and filter
    */
   window.addEventListener('load', () => {
     let productsContainer = select('.products-container');
