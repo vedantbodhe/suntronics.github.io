@@ -685,9 +685,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Products
+# Portfolio
 --------------------------------------------------------------*/
-.products #products-flters {
+.portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
@@ -695,7 +695,7 @@ section {
   border-radius: 50px;
 }
 
-.products #products-flters li {
+.portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px;
@@ -707,20 +707,20 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.products #products-flters li:hover,
-.products #products-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #16df7e;
 }
 
-.products #products-flters li:last-child {
+.portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
-.products .products-item {
+.portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
-.products .products-item .products-info {
+.portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
   left: 30px;
@@ -732,21 +732,21 @@ section {
   padding: 15px;
 }
 
-.products .products-item .products-info h4 {
+.portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
   color: #5f687b;
 }
 
-.products .products-item .products-info p {
+.portfolio .portfolio-item .portfolio-info p {
   color: #949cac;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.products .products-item .products-info .preview-link,
-.products .products-item .products-info .details-link {
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
@@ -755,37 +755,37 @@ section {
   transition: 0.3s;
 }
 
-.products .products-item .products-info .preview-link:hover,
-.products .products-item .products-info .details-link:hover {
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #16df7e;
 }
 
-.products .products-item .products-info .details-link {
+.portfolio .portfolio-item .portfolio-info .details-link {
   right: 10px;
 }
 
-.products .products-item:hover .products-info {
+.portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 20px;
 }
 
 /*--------------------------------------------------------------
-# products Details
+# Portfolio Details
 --------------------------------------------------------------*/
-.products-details {
+.portfolio-details {
   padding-top: 40px;
 }
 
-.products-details .products-details-slider img {
+.portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
 
-.products-details .products-details-slider .swiper-pagination {
+.portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.products-details .products-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -793,16 +793,16 @@ section {
   border: 1px solid #16df7e;
 }
 
-.products-details .products-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #16df7e;
 }
 
-.products-details .products-info {
+.portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(95, 104, 123, 0.08);
 }
 
-.products-details .products-info h3 {
+.portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -810,27 +810,27 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.products-details .products-info ul {
+.portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.products-details .products-info ul li+li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
-.products-details .products-description {
+.portfolio-details .portfolio-description {
   padding-top: 30px;
 }
 
-.products-details .products-description h2 {
+.portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.products-details .products-description p {
+.portfolio-details .portfolio-description p {
   padding: 0;
 }
 
