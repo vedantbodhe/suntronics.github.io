@@ -167,25 +167,25 @@
   });
 
   /**
-   * Products isotope and filter
+   * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let productsContainer = select('.products-container');
-    if (productsContainer) {
-      let productsIsotope = new Isotope(productsContainer, {
-        itemSelector: '.products-item'
+    let portfolioContainer = select('.portfolio-container');
+    if (portfolioContainer) {
+      let portfolioIsotope = new Isotope(portfolioContainer, {
+        itemSelector: '.portfolio-item'
       });
 
-      let productsFilters = select('#products-flters li', true);
+      let portfolioFilters = select('#portfolio-flters li', true);
 
-      on('click', '#products-flters li', function(e) {
+      on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();
-        productsFilters.forEach(function(el) {
+        portfolioFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        productsIsotope.arrange({
+        portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
 
@@ -195,16 +195,16 @@
   });
 
   /**
-   * Initiate products lightbox 
+   * Initiate portfolio lightbox 
    */
-  const productsLightbox = GLightbox({
-    selector: '.products-lightbox'
+  const portfolioLightbox = GLightbox({
+    selector: '.portfolio-lightbox'
   });
 
   /**
-   * products details slider
+   * Portfolio details slider
    */
-  new Swiper('.products-details-slider', {
+  new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
