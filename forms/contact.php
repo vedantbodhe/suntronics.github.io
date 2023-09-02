@@ -39,7 +39,7 @@
     'password' => 'MYRA%221122', // Your Gmail password or App Password
     'port' => 587, // Port for TLS encryption
     'encryption' => 'tls', // Use 'tls' for TLS encryption or 'ssl' for SSL encryption
-);
+); 
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
