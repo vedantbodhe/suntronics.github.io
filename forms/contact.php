@@ -33,6 +33,14 @@
   );
   */
 
+  $contact->smtp = array(
+    'host' => 'smtp.gmail.com', // Gmail SMTP server
+    'username' => 'info@siipl.co', // Your Gmail email address
+    'password' => 'MYRA%221122', // Your Gmail password or App Password
+    'port' => 587, // Port for TLS encryption
+    'encryption' => 'tls', // Use 'tls' for TLS encryption or 'ssl' for SSL encryption
+);
+
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
